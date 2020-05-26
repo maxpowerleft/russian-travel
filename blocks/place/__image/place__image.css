@@ -4,3 +4,23 @@
   grid-column: 1;
   grid-row: 2;
 }
+
+@media screen and (max-width: 1279px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__image {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__image {
+    max-width: 320px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+}

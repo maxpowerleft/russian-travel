@@ -1,50 +1,16 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/inter.css);
-@import url(../blocks/header/header.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/link/link.css);
 
-.footer__container {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  margin-top: 100px;
-  margin-bottom: 24px;
-  max-width: 1184px;
-  min-height: 18px;
-}
-
-.footer__links {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-}
-
-.footer__link {
-  margin: 0;
-  margin-right: 18px;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.1;
-  color: #fff;
-}
-
-.footer__copyright {
-  margin: 0;
-  align-self: center;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.1;
-  color: #fff;
-}
-
+/* Большое спасибо за внимание и возможность совершенствоваться :) */
 
 

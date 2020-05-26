@@ -13,5 +13,23 @@
 }
 
 .cover__background:hover {
-  background-image: linear-gradient(rgba(42, 44, 47, 0.7), rgba(42, 44, 47, 0.7)), url(../../../images/cover-trains.jpg);
+  background-image: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url(../../../images/cover-trains.jpg);
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    min-height: 620px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__background {
+    min-height: 200px;
+  }
 }

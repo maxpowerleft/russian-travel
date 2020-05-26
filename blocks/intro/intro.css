@@ -8,6 +8,20 @@
   margin: 0 auto;
   margin-top: 92px;
   max-width: 984px;
-  min-height: 428px;
 }
 
+@media screen and (max-width: 1023px) {
+  .intro {
+    max-width: 720px;
+    margin-top: 88px;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    max-width: 288px;
+    margin-top: 64px;
+    padding: 0 16px;
+  }
+}
