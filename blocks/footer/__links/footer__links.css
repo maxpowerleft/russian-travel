@@ -8,9 +8,7 @@
   .footer__links {
     margin: 0;
     flex-direction: column;
-    justify-content: space-around;
     max-width: 186px;
-    min-height: 310px;
     margin-left: 16px;
   }
 }
