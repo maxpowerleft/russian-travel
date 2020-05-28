@@ -2,7 +2,6 @@
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__lang-link/_active/header__lang-link_active.css);
-@import url(./__lang-link/_inactive/header__lang-link_inactive.css);
 
 .header {
   display: flex;
@@ -10,7 +9,6 @@
   max-width: 1184px;
   max-height: 52px;
   margin: 0 auto;
-  padding: 0 48px;
   padding-top: 28px;
 }
 
@@ -23,7 +21,6 @@
 @media screen and (max-width: 1023px) {
   .header {
     max-width: 720px;
-    padding: 0 24px;
   }
 }
 
@@ -31,7 +28,6 @@
   .header {
     max-width: 288px;
     max-height: 42px;
-    padding: 0 16px;
     padding-top: 16px;
   }
 }

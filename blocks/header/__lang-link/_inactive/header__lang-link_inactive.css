@@ -1,8 +1,0 @@
-.header__lang-link_inactive {
-  transition: opacity .2s linear;
-  opacity: 1;
-}
-
-.header__lang-link_inactive:hover {
-  opacity: .6;
-}
